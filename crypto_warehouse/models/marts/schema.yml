@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: mart_daily_prices
+    description: "Precios diarios enriquecidos con retorno diario y volatilidad."
+    columns:
+      - name: name
+        tests:
+          - not_null
+      - name: date
+        tests:
+          - not_null
+      - name: close_price
+        tests:
+          - not_null
+
+  - name: mart_coin_performance
+    description: "Resumen de rendimiento histórico por criptomoneda."
+    columns:
+      - name: name
+        tests:
+          - not_null
+          - unique
+
+  - name: mart_market_dominance
+    description: "Dominancia de mercado por criptomoneda y año."
+    columns:
+      - name: name
+        tests:
+          - not_null

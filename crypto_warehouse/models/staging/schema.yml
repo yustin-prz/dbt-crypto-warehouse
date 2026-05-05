@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_coins
+    description: "Staging model que unifica los 23 CSVs de criptomonedas en una sola tabla limpia."
+    columns:
+      - name: coin_id
+        description: "Identificador único por fila (SNo + Name)"
+        tests:
+          - not_null
+      - name: name
+        description: "Nombre de la criptomoneda"
+        tests:
+          - not_null
+      - name: symbol
+        description: "Símbolo de la criptomoneda"
+        tests:
+          - not_null
+      - name: date
+        description: "Fecha del registro"
+        tests:
+          - not_null
+      - name: close_price
+        description: "Precio de cierre en USD"
+        tests:
+          - not_null

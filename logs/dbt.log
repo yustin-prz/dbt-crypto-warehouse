@@ -1,0 +1,30 @@
+[0m15:11:20.124559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2AEE94A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2B24D4890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2B37526D0>]}
+
+
+============================== 15:11:20.132221 | cf8df796-a386-4b39-9ba2-e5befebd99b4 ==============================
+[0m15:11:20.132221 [info ] [MainThread]: Running with dbt=1.11.8
+[0m15:11:20.133228 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\yustin\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init crypto_warehouse', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:11:20.151554 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\yustin\.dbt
+[0m15:11:20.154524 [debug] [MainThread]: Starter project path: C:\Users\yustin\Documents\Python3_11\Lib\site-packages\dbt\include\starter_project
+[0m15:11:20.175067 [info ] [MainThread]: 
+Your new dbt project "crypto_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:11:20.176069 [info ] [MainThread]: Setting up your profile.
+[0m15:12:00.391408 [info ] [MainThread]: Profile crypto_warehouse written to C:\Users\yustin\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m15:12:00.391408 [debug] [MainThread]: Command `dbt init` succeeded at 15:12:00.391408 after 40.36 seconds
+[0m15:12:00.391408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2ABC12490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2B23C7B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2B3888D50>]}
+[0m15:12:00.391408 [debug] [MainThread]: Flushing usage events
+[0m15:12:01.137852 [debug] [MainThread]: An error was encountered while trying to flush usage events
