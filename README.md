@@ -17,7 +17,7 @@ Data warehouse built with dbt and DuckDB that models historical price data for 2
         └──▶ [mart_market_dominance]  ── Market cap dominance by coin and year
 ```
 
-![Lineage Graph](data/lineage_graph.png)
+![Lineage Graph](crypto_warehouse/data/lineage_graph.png)
 
 ---
 
